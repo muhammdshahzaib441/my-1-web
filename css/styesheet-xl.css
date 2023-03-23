@@ -1,0 +1,16 @@
+/* Extra large(1200-screeen-view) */
+@media screen and (max-width: 1200px) {
+.hero_section .content{
+  padding-right:0;
+}
+.sec-1 .content .extra p {
+  font-size: 15px;
+}
+.sec-1 .content .extra h3 {
+  font-size: 30px;
+}
+.sec-4 .content-col, .sec-8 .sec-8-col {
+  padding:6px 12px ;
+}
+
+    }

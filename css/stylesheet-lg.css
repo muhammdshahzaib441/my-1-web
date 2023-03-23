@@ -1,0 +1,33 @@
+/* Medium(992-screeen-view) */
+@media screen and (max-width: 992px) {
+/* .sec-1 */
+  .sec-1 .content .extra p {
+    font-size: 14px;
+  }
+  .sec-1 .content .extra h3 {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+  .sec-3 .sec-3-col{
+    padding: 6px 12px;
+  }
+  .sec-7 .sec-7-col{
+    padding:12px;
+  }
+  .sec-3 .left-box .content{
+    text-align: center;
+  }
+  .sec-3 .left-box .content{
+    max-width: 100%;
+  }
+  .sec-3 .left-box .content p {
+    max-width: 100%;
+  }
+  .sec-5 .left-box .content h3{
+    max-width: 100%;
+  }
+  .sec-7 .img-box {
+    max-width: 100%;
+    max-height: 100%;
+}
+    }

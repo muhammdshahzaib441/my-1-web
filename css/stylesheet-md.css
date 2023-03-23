@@ -1,0 +1,35 @@
+/* Medium(786-screeen-view) */
+@media screen and (max-width: 768px) {
+.hero_section .content p {
+  font-size: 30px;
+}
+.sec-8 .col-xl-3{
+  padding: 12px;
+}
+.sec-1 .col{
+  padding: 6px 12px;
+}
+.sec-1 .content .extra p {
+  font-size: 20px;
+}
+.sec-1 .content .extra h3 {
+  font-size: 30px;
+  margin-bottom: 54px;
+}
+.sec-6 .service_card{
+  text-align: center;
+}
+.sec-6 .service_card{
+  max-width:100% ;
+}
+.sec-5 .right-box .img-box{
+  max-width: 100%;
+  max-height: 100%;
+}
+.reg-page-sec .contect {
+  padding: 15px 5px 0px;
+}
+.my-account-page-sec form.row {
+  max-width: 100%;
+}
+  }

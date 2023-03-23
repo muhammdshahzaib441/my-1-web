@@ -1,0 +1,666 @@
+
+/* set_for_all  */
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    background: #ffffff;
+    line-height:1.9;
+    letter-spacing: 0px;
+}
+.container{
+    max-width: 1516px;
+    /* background: #ffffff; */
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #000;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.hero_section {
+    background: url(../assets/csm_Slider_Innsbruck_86f00cbb0c.png) no-repeat;
+    min-height: 794px;
+    background-size: cover; 
+}
+.hero_section p,.hero_section a,.hero_section h2{
+    color: #000;
+}
+.hero_section .content{
+    padding-top: 277px;
+}
+.hero_section .hero-heading{
+    padding-top: 25px;
+    padding-right: 300px;
+}
+.hero_section .content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size:32px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.hero_section .content h2{    
+    color: #ffffff;
+    font-size:48px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero_section .content .btn-box {
+    padding-top: 32px;
+}
+.hero_section .content .btn-box button{ 
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    border: 2px solid transparent;
+    background:#42A7D9;
+    padding: 18px 32px;
+    z-index: -1;
+    border-radius: 0;
+    line-height: 50%;
+}
+.hero_section .content .btn-box button:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: transparent;
+}
+/* sec-1 */
+.sec-1 .row{
+    padding-top: 20px;
+}
+.sec-1 .img-box{
+    overflow: hidden;
+    max-width: 630px;
+    max-height: 542px;
+    position: relative;
+}
+.sec-1 .content{
+    position: absolute;
+    bottom: 22%;
+    width: 100%;
+}
+.sec-1 .content .extra{
+    position: relative;
+    width:100%;
+}
+.sec-1 .content .btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    border: 2px solid transparent;
+    background: #42A7D9;
+    width: 250px;
+    padding: 16px 0;
+    z-index: -1;
+    border-radius: 0;
+    line-height: 1;
+}
+.sec-1 .content .btn:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: transparent;
+}
+/* sec-2 */
+.sec-2 .service_card{
+    border: none;
+    max-width: 390px;
+    margin: 0 auto;
+}
+.sec-2 .service_card .icon{
+    padding: 35px 0 21px 0;
+}
+.sec-2 .service_card .icon i{
+    font-size: 29px;
+    padding: 12px 17px;
+    background: #D5DCD6;
+    border-radius: 50%;
+}
+.sec-2 .service_card h3.service{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sec-2 .service_card p.service-info{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* sec-3  */
+.sec-3 {
+    padding: 15px 0;
+    background: #D3D3D3;
+}
+.sec-3 .left-box .content{
+    max-width: 614px;
+    padding: 0 40px 67px 50px;
+    background: #ffffff;
+}
+.sec-3 .left-box .content h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 26px;
+        padding: 53px 0 13px 0 ;
+}
+.sec-3 .left-box .content h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 44px;
+        padding: 14px 0;
+}
+.sec-3 .left-box .content p{
+    font-size: 18px;
+    max-width: 443px;
+    flex-wrap: wrap;
+}
+.sec-3 .left-box .btn-box{
+    padding-top: 14px;
+}
+.sec-3 .left-box .btn-box button{
+    color: #FFFFFF;
+    background: #42A7D9;
+    width: 227px;
+    padding: 13px 0 ;
+    border: 2px solid transparent;
+}
+.sec-3 .left-box .btn-box button:active{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: transparent;
+}
+.sec-3 .right-box .img-box{
+    max-width: 1030px;
+    max-height: 680px;
+    overflow: hidden;
+}
+.sec-4 {
+    margin-top: 77px;
+    background: #D3D3D3;
+}
+.sec-4 .sec-4-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6px 12px;
+}
+.sec-4 .row .img-box{
+    overflow: hidden;
+    max-width: 616px;
+    max-height: 520px;
+    margin: auto;
+}
+.sec-4 .row h3{
+ font-size: 25px;
+ font-weight: 500;
+}
+.sec-4 .row p{
+ font-size: 18px;
+ font-weight: 400;
+}
+/* sec-5  */
+.sec-5{
+    background: url(../assets/world.png) no-repeat;
+    min-height: 794px;
+    background-position-x: right;
+    background-position-y: top;
+}
+.sec-5 .row{
+    padding: 162px 0 112px 0;
+}
+.sec-5 .left-box .content h3{
+    font-size: 25px;
+    font-weight:500;
+    max-width: 395px;
+}
+.sec-5 .left-box .content p{
+font-size: 18px;
+flex-wrap: wrap;
+max-width: 668px;
+margin-top: 82px;
+}
+.sec-5 .left-box .btn-box{
+padding: 35px 0 10px 0 ;
+}
+.sec-5 .left-box .btn-box button{
+color: #FFFFFF;
+background: #42A7D9;
+padding: 13px 72px ;
+border: none;
+}
+.sec-5 .left-box .btn-box button:hover{
+color: #ffffff;
+border: 2px solid #ffffff;
+background: transparent;
+}
+.sec-5 .right-box, .sec-7 .content-col, .sec-3 .right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec-5 .right-box .img-box{
+max-width: 891px;
+max-height: 520px;
+overflow: hidden;
+}
+/* sec-6 */
+.sec-6 .service_card{
+    border: none;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.sec-6  .service_card .numbring{
+    font-size: 140px;
+    color: #E0E0E0;
+}
+.sec-6 .service_card .icon{
+    padding: 35px 0 24px 0;
+}
+.sec-6 .service_card .icon i{
+    font-size: 29px;
+    padding: 12px 17px;
+    background: #D5DCD6;
+    border-radius: 50%;
+}
+.sec-6 .service_card h3.service{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 12px 0;
+}
+/* .sec-6 .service_card p.service-info{
+} */
+.sec-7 {
+    background: #EFFAFF;
+}
+.sec-7 .img-box {
+        max-width: 490px;
+        max-height: 680px;
+        overflow: hidden;
+    }
+    .sec-7 .content-box h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .sec-7 .content-box p{
+        font-size: 20px;
+        max-width: 995px;
+        margin: 48px 0;
+    }
+    .sec-7 .btn-box{
+        padding-top: 68px;
+    }
+    .sec-7 .btn-box button {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        border: 2px solid transparent;
+        background:#42A7D9;
+        padding: 19px 22px;;
+        border-radius: 3px;
+        line-height: 50%;
+    }
+    .sec-8{
+        background: #D3D3D3;
+        padding: 30px 0 14px 0 ;
+    }
+    .sec-8 .service-box{
+        text-align: center;
+    }
+    .sec-8 h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    /* login-page-sec */
+    .login-page-sec{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .login-page-sec .container{
+        max-width: 1250px;
+    }
+    .login-page-sec .content .login h2.loigin-heading span,
+    .login-page-sec .content-box .heading h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    .login-page-sec .content .login,
+    .login-page-sec .content-box .heading{
+        border-bottom: 1px solid #707070;
+        padding-bottom: 12px;
+    }
+    .login-page-sec .content-box{
+        padding-top: 52px;
+    }
+    .login-page-sec .content-box .detail{        
+        padding-top: 20px;
+    }
+    .login-page-sec form label{
+        font-weight: 600;
+    }
+    .login-page-sec form input:hover{
+        border: 1px solid  #1492E6;
+    }
+    .login-page-sec .content-box .btn-box{
+        padding: 9px 0;
+    }
+    .login-page-sec form .forget-password a{
+        vertical-align: text-top;
+        padding: 0px 30px;
+    }
+    .login-page-sec form .forget-password a:hover{
+        text-decoration: underline;
+    }
+    .login-page-sec form  button.btn,
+    .login-page-sec .content-box .btn-box .btn{
+        color: #FFFFFF;
+        background: #D3D3D3;
+        padding: 9px 18px;
+        border-radius: 0;
+    }
+    .login-page-sec form button.btn:hover,
+    .login-page-sec .content-box .btn-box .btn:hover{
+        background: #D9D3CC;
+    }
+    .login-page-sec form .required-fields-box{
+        padding-top: 25px;
+    }
+    .login-page-sec form .required-fields-box a.required-fields{
+        color: #FF0000;
+    }
+      /* Contact-page-sec */
+      .contact-page-sec .container{
+        max-width: 1280px;
+      }
+      .contact-page-sec .main-heading{
+        padding: 31px 0px 22px 0px ;
+      }
+      .contact-page-sec .main-heading h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+      }
+      .contact-page-sec .heading h3{
+        font-size: 30px;
+        padding-bottom: 12px;
+      }
+      .contact-page-sec .poppine-leng{font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+    }
+      .contact-page-sec .content h3{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 10px;
+      }
+      .contact-page-sec .social-link i::before{
+        padding: 8px;
+        font-size: 25px;
+        background: #E0E0E0;
+        border-radius: 50%;
+      }
+      .contact-page-sec .social-link a:hover{
+        opacity: 70%;
+      }
+      .contact-page-sec form.row{
+        padding: 84px 0 100px 0 ;
+      }
+      .contact-page-sec form.row h2{
+        font-size: 32px;
+        padding: 17px 0;
+      }
+      .contact-page-sec form.row input,
+      .contact-page-sec form.row p{
+        font-size: 20px;
+      }
+      .contact-page-sec form.row input,
+      .contact-page-sec form.row textarea{
+        border-radius: 0;
+      }
+            /* reg-page-sec */
+        .reg-page-sec .container{
+            padding-top: 65px;
+            padding-bottom: 100px;
+            max-width: 1280px;
+        }
+        .reg-page-sec label{
+            padding-bottom: 7px;
+        }
+        .reg-page-sec label,
+        .reg-page-sec .create-account-btn{
+            font-size: 17px;
+        } 
+        .reg-page-sec input.form-control{
+            border-radius: 0;
+        }
+
+        .reg-page-sec form .form_item{
+            padding: 15px 5px;
+        }
+        .reg-page-sec .main-heading .h1-div{
+            border-bottom: 1px solid #707070;
+            padding-top: 12px;
+        }
+        .reg-page-sec .main-heading .p-div{
+            padding: 21px 0px;
+        }
+      .reg-page-sec .main-heading h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+      }
+      .reg-page-sec .contect{
+        padding: 0 5px 15px;
+      }
+      .reg-page-sec .Factu-div{
+        padding: 25px 5px 15px 5px;
+      }
+      .reg-page-sec .contect h2{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .reg-page-sec .btn-box{
+       padding: 15px 0;
+      }
+      .reg-page-sec .create-account-btn{
+        background: #D3D3D3;
+        color: #ffffff;
+        padding: 13px 17px;
+        border-radius: 0;
+        border: 2px solid transparent;
+      }
+      .reg-page-sec .create-account-btn:hover{
+        opacity: 80%;
+      }
+      .reg-page-sec .policy{
+        font-size: 17px;
+        font-weight: 500;
+    }
+        /* my-account-page-sec */
+    .my-account-page-sec .container{
+        max-width:1280px;
+    }
+    .my-account-page-sec form.row{
+        max-width: 600px;
+    }
+    .my-account-page-sec .main-heading{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        padding: 22px 12px;
+    }
+    .my-account-page-sec .contect{
+        padding: 30px 5px 0 5px;
+    }
+    .my-account-page-sec .contect h2{
+        font-size: 25px;
+        font-weight: 500;
+        border-bottom: 2px solid #707070;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+    .my-account-page-sec .submit-box{
+        padding-top: 15px;
+    }
+    .my-account-page-sec .btn-box{
+        padding: 20px 0;
+    }
+    .my-account-page-sec .btn-box .save-btn{
+        font-size: 18px;
+        color: #000;
+        background: transparent;
+        border: 2px solid #000;
+        padding: 8px 6px;
+        border-radius: 0;
+    }
+    .my-account-page-sec .btn-box .save-btn:hover{
+        color: #ffffff;
+        background: #000;
+        border: 2px solid transparent;
+    }
+    .my-account-page-sec .row{
+        background: #E0E0E0;
+    }
+    .my-account-page-sec .form_item{
+        padding: 12.5px 5px;
+    }
+    .my-account-page-sec .form-control{
+        border-radius: 0;
+    }
+    .my-account-page-sec aside.menu .aside-ul li a{
+        display: block;
+        padding: 7px 13px 9px 13px;
+    }
+    .my-account-page-sec aside.menu .aside-ul li a span{
+        font-size: 20px;
+        border-bottom: 2px solid #707070;
+        padding-bottom: 5.5px;
+    }
+    .my-account-page-sec aside.menu .aside-ul li{
+        margin: 12.5px 0;
+    }
+    .my-account-page-sec aside.menu .aside-ul li a:hover ,
+    .active, .my-account-page-sec aside.menu .aside-ul li a:active{
+        color: #272525;
+        background: #FFFFFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
